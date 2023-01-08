@@ -21,6 +21,7 @@ h3{
     color: #426696;
     font-weight: 600;
     opacity: 0.8;
+    font-size: large;
 }
 
 h4{
@@ -41,7 +42,7 @@ main{
 
 .glass{
     min-height: 80vh;
-    width: 60%;
+    width: 80%;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
     border-radius: 2rem;
     z-index: 2;
@@ -59,7 +60,7 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)); 
+    background: linear-gradient(to right bottom, rgba(111,121,208,0.1), rgba(132,164,252,0.3)); 
     border-radius: 2rem;
 }
 
@@ -168,13 +169,14 @@ main{
     width: 15rem;
     height: 15rem;
     border-radius: 2rem;
+    flex: 0.1;
 }
 
 .cardimg{
     flex: 1;
     display: flex;
     margin-right: 1rem;
-    flex: 1;
+    flex: 0.1;
 }
 
 .logosside{
@@ -182,6 +184,16 @@ main{
     justify-content: top;
     align-items: top;
     flex: 1;
+    margin-right: 1rem;
+}
+
+.logosdown{
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    flex: 50;
+    margin-right: 1rem;
+    flex-direction: column;
 }
 
 .logos1{
@@ -195,6 +207,7 @@ main{
     width: min-content;
     height:80px;
     margin: 1rem;
+    align-self: center;
 }
 
 
@@ -243,12 +256,12 @@ main{
 
 .circle1{
     top: 5%;
-    left: 5%;
+    left: 1%;
 }
 
 .circle2{
     bottom: 5%;
-    right: 5%;
+    right: 1%;
 }
 
 .copyright{
