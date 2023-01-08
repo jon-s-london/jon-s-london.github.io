@@ -104,7 +104,7 @@ main{
 
 .box{
     background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.1));
-    margin-top: 10rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 2rem;
     padding: 1rem;
